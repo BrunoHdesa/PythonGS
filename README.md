@@ -20,4 +20,4 @@ Um assistente virtual que interaja com os usuários para criar planos de dieta p
 com base em preferências alimentares, restrições e metas de saúde específicas.
 
 Link do video:
-xxxxxxxxxxxxxx
+https://youtu.be/crF_ewKanFc?si=SHZHhcB2UqtpuXJh
