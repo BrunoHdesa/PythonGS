@@ -16,7 +16,6 @@ def gerenciar_medicamentos():
     while horario_atual < meia_noite + timedelta(days=1):
         print(horario_atual.strftime("%H:%M"))
         horario_atual += timedelta(hours=tomar)
-
 def consulta_medica():
     num_carteirinha = int(input("Informe o número da sua carteirinha: "))
 
