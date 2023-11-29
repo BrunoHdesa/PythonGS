@@ -1,4 +1,6 @@
 from datetime import datetime, timedelta
+import random
+import time
 
 def gerenciar_medicamentos():
     # Guardando dados
@@ -15,4 +17,11 @@ def gerenciar_medicamentos():
         print(horario_atual.strftime("%H:%M"))
         horario_atual += timedelta(hours=tomar)
 
-gerenciar_medicamentos()
+def consulta_medica():
+    num_carteirinha = int(input("Informe o número da sua carteirinha: "))
+
+    print("\nAguarde que algum médico irá te atender em breve...")
+    time.sleep(4)
+
+def contato():
+    print("Integrantes:\nBruno Hermano - RM553799\nChrisman Campos - RM554026\nLeonardo Macedo - RM552753\n")
