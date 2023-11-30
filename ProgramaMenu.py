@@ -35,8 +35,13 @@ def criar_conta():
     cidade = input("Informe sua cidade: ")
     endereco = input("Informe seu endereço completo: ")
 
+    # Guardando ID das carteirinhas
+    carteirinhas = []
+    gerar_id = random.randint(100, 99999)
+    carteirinhas.append(gerar_id)
+
     # Gerar o número de cadastro
-    print("O número da sua carteirinha é: ", random.randint(100, 99999))
+    print(f"O número da sua carteirinha é: {gerar_id}")
 
 sair = 1
 while (sair != 0):
